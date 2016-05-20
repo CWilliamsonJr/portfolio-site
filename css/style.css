@@ -1,0 +1,54 @@
+.card-size{
+  width:320px;
+  display: inline-block;
+  margin-right:10px;  
+}
+
+.skills-list > li {
+/*   padding-left:10px; */
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.created-by{
+  float:right;  
+}
+footer.page-footer,nav{  
+  background-color:#07070A;  
+}
+body{
+  background-color: #757575;
+  color:#07070A;
+}
+.footer-copyright{
+  color:green;
+}
+.tabs,.card{
+  background-color:#4C5760;  
+}
+.card-title,.tabs.tab{
+  color:#07070A;
+}
+.card{
+  color:#07070A;
+} 
+a,.page-text{
+  color:#ffa000  ;
+}
+div >.right > li:hover{
+  background-color:#757575;
+}
+.disabled{
+  opacity:.5;
+}
+
+.portrait{
+  height:70px;
+  width:50px;
+}
+.inline{
+  display:inline;
+  position:absolute:
+}
+.pos-rel{
+  position: relative;
+}
