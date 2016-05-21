@@ -1,273 +1,421 @@
 <!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UTF-8">
-    <title>Portfolio</title>
-    
-    
-    
-    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css'>
-<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'>
+<html>
 
-        <link rel="stylesheet" href="css/style.css">
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="css/style.css"> -->
+    </head>
 
-    
-    
-    
-  </head>
+    <body>
+        <!-- <div class="navbar-fixed"> -->
+        <nav>
+            <div>
+                <div class="navbar-wrapper container">
+                    <div class="brand-logo"> Clarence Williamson</div>
+                </div>
+                <ul class="right">
+                    <li><a href="#About-Me">About Me</a> </li>
+                    <li><a href="#Portfolio">Portfolio</a> </li>
+                    <li><a href="#Contact">Contact</a> </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- </div> -->
+        <div class="container">
+            <!---Start of Container-->
+            <div class="row">
+                <!--- Star of Row div -->
+                <!--- Star of sections -->
+                <!---Start ofSection 1-->
+                <div class="section">
+                    <h4 class="section-title" id="About-Me"> About Me:</h4>
+                    <p class="flow-text">Hello, I am <strong>Clarence Williamson</strong> and I am a web developer looking to start a career in Web Development. I have been doing Programming off and on as a hobby since 2002. I started with C++ when I was in college, and ever
+                        since then I have come to enjoy problem solving with programming. Recently I have got back into programming using <a href="https://www.freecodecamp.com/leo81202" target="_blank">Free Code Camp</a> and other various resources. Currently
+                        I am improving my skills in Javascript and working my way through React exercises using ES6. </p>
+                    <ul class="skills-list flow-text">
+                        <h5>Skills:</h5>
+                        <li>HTML5 </li>
+                        <li>CSS 2/3</li>
+                        <li>JQuery</li>
+                        <li>Javascript/ES6 </li>
+                        <li>React </li>
+                        <li>Bootstrap</li>
+                        <li>SCSS/SASS</li>
+                        <li>Webpack</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+                <!---End of Section 1-->
+                <!--- Start of Section 2 -->
+                <div class="divider"></div>
+                <div class="section">
+                    <h4 class="section-title" id="Portfolio"> Portfolio </h4>
+                    <p class="flow-text"> Here are some of the recent project that I"ve done. </p>
+                    <!--Start of Tabs -->
+                    <div class="row">
+                        <div class="col s12">
+                            <ul class="tabs">
+                                <li class="tab col s3"><a class="active" href="#page1"><span class="page-text">Page 1</span></a></li>
+                                <li class="tab col s3"><a href="#page2"><span class="page-text">Page 2</span></a></li>
+                                <li class="tab col s3 disabled"><a href="#page3"><span class="page-text">Page 3</span></a></li>
+                                <li class="tab col s3 disabled"><a href="#page4"><span class="page-text">Page 4</span></a></li>
+                            </ul>
+                        </div>
+                        <div id="page1" class="col s12">
+                            <!----Star of Pomodoro Card---->
+                            <div class="group-1 col m6">
+                                <div class="row">
+                                    <div class="col s12 m12">
+                                        <div class="card blue-grey darken-1">
+                                            <div class="card-content white-text">
+                                                <span class="card-title activator">Pomodoro Clock<i class="material-icons right">more_vert</i></span>
+                                                <p>Completed with Jquery and Bootstrap</p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title grey-text text-darken-4">Pomodoro Clock User Story<i class="material-icons right">close</i></span>
+                                                <ul class="reveal-list">
+                                                  <li> I can start a 25 minute pomodoro, and the timer will go off once 25 minutes has elapsed. </li>
+                                                  <li> I can reset the clock for my next pomodoro. </li>
+                                                  <li>I can customize the length of each pomodoro. </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#">This is a link</a>
+                                                <a href="#">This is a link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!----End of Pomodoro Card----->
+                                <!--- Start of Weather Api Card ----->
+                                <div class="row">
+                                    <div class="col s12 m12">
+                                        <div class="card blue-grey darken-1">
+                                            <div class="card-content white-text">
+                                                <span class="card-title activator">Openweather 5-day forecast<i class="material-icons right">more_vert</i></span>
+                                                <p>Completed with Jquery, Openweater Api, and Bootstrap</p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title grey-text text-darken-4">Openweather Api User Story<i class="material-icons right">close</i></span>
+                                                <ul class="reveal-list">
+                                                  <li> I can see the weather in my current location. </li>
+                                                  <li> I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.</li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#">This is a link</a>
+                                                <a href="#">This is a link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------End of Weather Api Card----->
+                                <!-------Start of Simon Says Card-------->
+                                <div class="row">
+                                    <div class="col s12 m12">
+                                        <div class="card blue-grey darken-1">
+                                            <div class="card-content white-text">
+                                                <span class="activator card-title">Simon Game<i class="material-icons right">more_vert</i></span>
+                                                <p>Completed with Jquery and Bootstrap</p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title grey-text text-darken-4">Simon Game User Story<i class="material-icons right">close</i></span>
+                                                <ul class="reveal-list">
+                                                  <li>I am presented with a random series of button presses. </li>
+                                                  <li>Each time I input a series of button presses correctly, I see the same series of button presses but with an additional step. </li>
+                                                  <li>I hear a sound that corresponds to each button both when the series of button presses plays, and when I personally press a button. </li>
+                                                  <li>If I press the wrong button, I am notified that I have done so, and that series of button presses starts again to remind me of the pattern so I can try again.</li>
+                                                  <li>I can see how many steps are in the current series of button presses. </li>
+                                                  <li>If I want to restart, I can hit a button to do so, and the game will return to a single step. </li>
+                                                  <li>I can play in strict mode where if I get a button press wrong, it notifies me that I have done so, and the game restarts at a new random series of button presses. </li>
+                                                  <li>I can win the game by getting a series of 20 steps correct. I am notified of my victory, then the game starts over. </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#">This is a link</a>
+                                                <a href="#">This is a link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-----End of Simon Says Card------->
+                            </div>
+                            <!----Star of Markdown Previewer---->
+                            <div class="group-2 col m6">
+                                <div class="row">
+                                    <div class="col s12 m12">
+                                        <div class="card blue-grey darken-1">
+                                            <div class="card-content white-text">
+                                                <span class="card-title activator">Markdown Previewer<i class="material-icons right">more_vert</i></span>
+                                                <p>Completed with React and Bootstrap</p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title grey-text text-darken-4">Markdown Previewer User Story<i class="material-icons right">close</i></span>
+                                                <ul class="reveal-list">
+                                                  <li>I can type GitHub-flavored Markdown into a text area. </li>
+                                                  <li>I can see a preview of the output of my markdown that is updated as I type. </li>
 
-  <body>
+                                                </ul>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#">This is a link</a>
+                                                <a href="#">This is a link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!----End of Markdown Previewer----->
+                                <!--- Start of Javascript Calculator ----->
+                                <div class="row">
+                                    <div class="col s12 m12">
+                                        <div class="card blue-grey darken-1">
+                                            <div class="card-content white-text">
+                                                <span class="card-title activator">Javascript Calculator<i class="material-icons right">more_vert</i></span>
+                                                <p>Completed with Jquery, Bootstrap and Math.js</p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title grey-text text-darken-4">Javascript Calculator User Story<i class="material-icons right">close</i></span>
+                                                <ul class="reveal-list">
+                                                  <li>I can add, subtract, multiply and divide two numbers. </li>
+                                                  <li>I can clear the input field with a clear button.</li>
+                                                  <li>I can keep chaining mathematical operations together until I hit the equal button, and the calculator will tell me the correct output. </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#">This is a link</a>
+                                                <a href="#">This is a link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-----End of Javacript Calculator----->
+                                <!-------Start of Tic-Tac-Toe Card-------->
+                                <div class="row">
+                                    <div class="col s12 m12">
+                                        <div class="card blue-grey darken-1">
+                                            <div class="card-content white-text">
+                                                <span class="card-title activator">Tic-Tac-Toe<i class="material-icons right">more_vert</i></span>
+                                                <p>Completed with Jquery and Bootstrap</p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title grey-text text-darken-4">Tic-Tac-Toe User Story<i class="material-icons right">close</i></span>
+                                                <ul class="reveal-list">
+                                                  <li>I can play a game of Tic Tac Toe with the computer. </li>
+                                                  <li>My game will reset as soon as it's over so I can play again.</li>
+                                                  <li>My game will reset as soon as it's over so I can play again.</li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#">This is a link</a>
+                                                <a href="#">This is a link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-----End of Tic-Tac-Toe Card------->
+                            </div>
+                        </div>
+                        <div id="page2" class="col s12">
+                            <div class="col m6">
+                                <!----Star of Twitch Api---->
+                                <div class="row">
+                                    <div class="col s12 m12">
+                                        <div class="card blue-grey darken-1">
+                                            <div class="card-content white-text">
+                                                <span class="card-title activator">Twitch.tv JSON API<i class="material-icons right">more_vert</i></span>
+                                                <p>Completed with Jquery, Twitch Api, and Bootstrap</p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title grey-text text-darken-4">Twitch.tv User Story<i class="material-icons right">close</i></span>
+                                                <ul class="reveal-list">
+                                                  <li>I can see whether Free Code Camp is currently streaming on Twitch.tv.</li>
+                                                  <li>I can click the status output and be sent directly to the Free Code Camp's Twitch.tv channel. </li>
+                                                  <li>If a Twitch user is currently streaming, I can see additional details about what they are streaming. </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#">This is a link</a>
+                                                <a href="#">This is a link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!----End of Twitch Api Card----->
+                                <!--- Start of Wikipedia Api Card ----->
+                                <div class="row">
+                                    <div class="col s12 m12">
+                                        <div class="card blue-grey darken-1">
+                                            <div class="card-content white-text">
+                                                <span class="card-title activator">Wikipedia Viewer<i class="material-icons right">more_vert</i></span>
+                                                <p>Completed with Jquery, Mediawiki Api, and Bootstrap</p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title grey-text text-darken-4">Wikipedia Viewer User Story<i class="material-icons right">close</i></span>
+                                                <ul class="reveal-list">
+                                                  <li>I can search Wikipedia entries in a search box and see the resulting Wikipedia entries. </li>
+                                                  <li>I can click a button to see a random Wikipedia entry.</li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#">This is a link</a>
+                                                <a href="#">This is a link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-----End of Wikiepdia Api Card----->
+                                <!-------Start of Randmon Quote Machine Card-------->
+                                <div class="row">
+                                    <div class="col s12 m12">
+                                        <div class="card blue-grey darken-1">
+                                            <div class="card-content white-text">
+                                                <span class="card-title activator">Random Quote Machine<i class="material-icons right">more_vert</i></span>
+                                                <p>Completed with Jquery, Andruxnet random famous quotes Api, and Bootstrap</p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title grey-text text-darken-4">Random Quote Machine User Story<i class="material-icons right">close</i></span>
+                                                <ul class="reveal-list">
+                                                  <li>I can press a button to tweet out a quote. </li>
+                                                  <li>I can click a button to show me a new random quote </li>
 
-    <!-- <div class="navbar-fixed"> -->
-  <nav>
-    <div class="navbar-wrapper container">
-      <div class="brand-logo"> Clarence Williamson</div></div>
-      <ul class="right">
-        <li><a href="#About-Me">About Me</a> </li>
-        <li><a href="#Portfolio">Portfolio</a> </li>
-        <li><a href="#Contact">Contact</a> </li>
-      </ul>
-    </div>
-  </nav>
-<!-- </div> -->
-<div class="container">
-  <!---Start of Container-->
-  <div class="row">
-    <!--- Star of Row div -->
-    <!--- Star of sections -->
-    <!---Start ofSection 1-->
-    <div class="divider"></div>
-    <div class="section">
-      <h4 class="section-title" id="About-Me"> About Me:</h4>
-      <p class="flow-text">Hello, I am <strong>Clarence Williamson</strong> and I am a web developer looking to start a career in Web Development. I have been doing Programming off and on as a hobby since 2002. I started with C++ when I was in college, and ever since then I have
-        come to enjoy problem solving with programming. Recently I have got back into programming using <a href="https://www.freecodecamp.com/leo81202" target="_blank">Free Code Camp</a> and other various resources. Currently I am improving my skills
-        in Javascript and working my way through React exercises using ES6. </p>
-      <ul class="skills-list flow-text">
-        <h5>Skills:</h5>       
-        <li>HTML5 </li>
-        <li>CSS 2/3</li>
-        <li>JQuery</li>
-        <li>Javascript/ES6 </li>
-        <li>React </li>
-        <li>Bootstrap</li>
-        <li>SCSS/SASS</li>
-        <li>Webpack</li>       
-        <li>Git</li>
-      </ul>
-    </div>
-    <!---End of Section 1-->
-    <!--- Start of Section 2 -->
-    <div class="divider"></div>
-    <div class="section">
-      <h4 class="section-title" id="Portfolio"> Portfolio </h4>
-      <p class="flow-text"> Here are some of the recent project that I've done. </p>
-      <!--Start of Tabs -->
-      <div class="row">
-        <div class="col s12">
-          <ul class="tabs">
-            <li class="tab col s3"><a class="active" href="#page1"><span class="page-text">Page 1</span></a></li>
-            <li class="tab col s3"><a href="#page2"><span class="page-text">Page 2</span></a></li>
-            <li class="tab col s3"><a href="#page3"><span class="page-text">Page 3</span></a></li>
-            <li class="tab col s3 disabled"><a href="#page4"><span class="page-text">Page 4</span></a></li>
-          </ul>
+                                                </ul>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#">This is a link</a>
+                                                <a href="#">This is a link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-----End of Random Quote Machine Card------->
+                            </div>
+                            <div class="col m6">
+                                <!----Star of Twitch Api---->
+                                <div class="row">
+                                    <div class="col s12 m12">
+                                        <div class="card blue-grey darken-1">
+                                            <div class="card-content white-text">
+                                                <span class="card-title activator">Recipe Box<i class="material-icons right">more_vert</i></span>
+                                                <p>Completed with React Bootstrap, Bootstrap, SCSS, and React,</p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title grey-text text-darken-4">Recipe Box User Story<i class="material-icons right">close</i></span>
+                                                <ul class="reveal-list">
+                                                  <li>I can create recipes that have names and ingredients.</li>
+                                                  <li>I can see an index view where the names of all the recipes are visible. </li>
+                                                  <li>I can click into any of those recipes to view it. </li>
+                                                  <li>I can edit these recipes.</li>
+                                                  <li>I can delete these recipes. </li>
+                                                  <li>All new recipes I add are saved in my browser's local storage. If I refresh the page, these recipes will still be there. </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#">This is a link</a>
+                                                <a href="#">This is a link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!----End of Twitch Api Card----->
+                                <!--- Start of Camper Leaderboard ----->
+                                <div class="row">
+                                    <div class="col s12 m12">
+                                        <div class="card blue-grey darken-1">
+                                            <div class="card-content white-text">
+                                                <span class="card-title activator">Camper Leaderboard<i class="material-icons right">more_vert</i></span>
+                                                <p>Completed with React, Jquery and SCSS</p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title grey-text text-darken-4">Camper Leaderboard User Story<i class="material-icons right">close</i></span>
+                                                <ul class="reveal-list">
+                                                  <li>I can see a table of the Free Code Camp campers who've earned the most brownie points in the past 30 days. </li>
+                                                  <li>I can see how many brownie points they've earned in the past 30 days, and how many they've earned total. </li>
+                                                  <li>I can toggle between sorting the list by how many brownie points they've earned in the past 30 days and by how many brownie points they've earned total. </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#">This is a link</a>
+                                                <a href="#">This is a link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-----End of Camper Leaderboard----->
+                                <!-------Start of Conway's Game of Life-------->
+                                <div class="row">
+                                    <div class="col s12 m12">
+                                        <div class="card blue-grey darken-1">
+                                            <div class="card-content white-text">
+                                                <span class="card-title activator">Conway's Game of Life<i class="material-icons right">more_vert</i></span>
+                                                <p>Completed with Jquery, React,SCSS and Bootstrap</p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title grey-text text-darken-4">Conway's Game of Life User Story<i class="material-icons right">close</i></span>
+                                                <ul class="reveal-list">
+                                                  <li>I can start and stop the board. </li>
+                                                  <li> I can set up the board. </li>
+                                                  <li>I hear a sound that corresponds to each button both when the series of button presses plays, and when I personally press a button. </li>
+                                                  <li>I can clear the board.</li>
+                                                  <li>When I press start, the game will play out.</li>
+                                                  <li>Each time the board changes, I can see how many generations have gone by. </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#">This is a link</a>
+                                                <a href="#">This is a link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-----End of Conway's Game of Life------->
+                            </div>
+                        </div>
+                        <div id="page3" class="col s12">Page 3</div>
+                        <div id="page4" class="col s12">Page 4</div>
+                    </div>
+                    <!----End of Tabs---->
+                </div>
+                <!---End of section 2-->
+                <!---Start of section 3-->
+                <div class="divider"></div>
+                <div class="section">
+                    <h4 class="section-title" id="Contact"> Contact </h4>
+                    <p>
+                        <ul class="flow-text">
+                            <i class="fa fa-envelope" aria-hidden="true"></i> <a target="_blank" href="mailto:Clarence.Willamsonjr@gmail.com">Clarence.Willamsonjr@gmail.com</a> </li>
+                            <li><i class="fa fa-twitter-square" aria-hidden="true"></i> <a target="_blank" href="https://twitter.com/C_Williamsonjr"> Twitter </a></li>
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i> <a target="_blank" href="https://www.linkedin.com/in/clarence-williamson-133779115">LinkedIn</a> </li>
+                            <li><i class="fa fa-users" aria-hidden="true"></i><a href="https://www.freecodecamp.com/leo81202" target="_blank">Free Code Camp</a></li>
+                            <li><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/leo81202" target="_blank">Github</a></li>
+                        </ul>
+                    </p>
+                </div>
+                <!---End of Section 3-->
+                <!--- End of sections -->
+                <!---End of Row class-->
+            </div>
+            <!---End of Container-->
         </div>
-        <div id="page1" class="col s12">
-          <!----Star of Pomodoro Card---->
-          <div class="card large card-size">
-            <div class="card-image">
-              <div class="activator">
-                <p data-height="268" data-theme-id="0" data-slug-hash="MyJRKP" data-default-tab="result" data-user="Leo81202" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/Leo81202/pen/MyJRKP/">Pomodoro Clock</a> by Clarence Williamson (<a href="http://codepen.io/Leo81202">@Leo81202</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-                <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-              </div>
-            </div>
-            <div class="card-content">
-              <span class="card-title activator ">Pomodoro Clock  </span>
-              <p class="title-desc"><strong>Used:</stong> Bootstrap and JQuery </p>
-            </div>
-            <div class="card-action">
-              <p> <a target="_blank" href="http://codepen.io/Leo81202/full/MyJRKP/"> Click to open in new window </a> </p>
-            </div>
-          </div>
-          <!----End of Pomodoro Card----->
-          <!--- Start of Weather Api Card ----->
-          <div class="card large card-size">
-            <div class="card-image">
-              <div class="activator">
-                <p data-height="268" data-theme-id="0" data-slug-hash="LNPBew" data-default-tab="result" data-user="Leo81202" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/Leo81202/pen/LNPBew/">Weather API</a> by Clarence Williamson (<a href="http://codepen.io/Leo81202">@Leo81202</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-                <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-              </div>
-            </div>
-            <div class="card-content">
-              <span class="card-title activator "> Weather Api </span>
-              <p class="title-desc"><strong>Used:</stong> JQuery, Bootstrap, Openweater Api </p>
-            </div>
-            <div class="card-action">
-              <p> <a target="_blank" href="http://codepen.io/Leo81202/full/LNPBew/"> Click to open in new window </a> </p>
-            </div>
-          </div>
-          <!-----End of Weather Api Card----->
-          <!-------Start of Simon Says Card-------->
-          <div class="card large card-size">
-            <div class="card-image">
-              <div class="activator">
-                <p data-height="268" data-theme-id="0" data-slug-hash="oxBNWr" data-default-tab="result" data-user="Leo81202" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/Leo81202/pen/oxBNWr/">Simon Says</a> by Clarence Williamson (<a href="http://codepen.io/Leo81202">@Leo81202</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-                <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-              </div>
-            </div>
-            <div class="card-content">
-              <span class="card-title activator "> Simon Says  </span>
-              <p class="title-desc"> <strong>Used:</stong> Bootstrap, JQuery </p>
 
+        <footer class="page-footer">
+            <div class="footer-copyright">
+                &copy; 2016 Clarence Williamson | All rights reserved.
+                <span class="created-by"> Page Created by Clarence Williamson </span>
             </div>
-            <div class="card-action">
-              <p> <a target="_blank" href="http://codepen.io/Leo81202/full/oxBNWr/"> Click to Open in new window </a> </p>
-            </div>
-          </div>
-          <!-----End of Simon Says Card------->
-        </div>
-        <div id="page2" class="col s12">
-          <!----Star of Markdown Previewer---->
-          <div class="card large card-size">
-            <div class="card-image">
-              <div class="activator">
-                <p data-height="268" data-theme-id="0" data-slug-hash="bpWNqr" data-default-tab="result" data-user="Leo81202" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/Leo81202/pen/bpWNqr/">Markdown Previewer</a> by Clarence Williamson (<a href="http://codepen.io/Leo81202">@Leo81202</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-                <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-              </div>
-            </div>
-            <div class="card-content">
-              <span class="card-title activator ">Markdown Previewer </span>
-              <p class="title-desc"><strong>Used:</stong>React ES6, Javascript </p>
-              <div class="card-action" <p> <a target="_blank" href="http://codepen.io/Leo81202/full/bpWNqr/"> Click to open in new window </a> </p>
-              </div>
-            </div>
-          </div>
-          <!----End of Markdown Previewer----->
-          <!--- Start of Javascript Calculator ----->
-          <div class="card large card-size">
-            <div class="card-image">
-              <div class="activator">
-                <p data-height="268" data-theme-id="0" data-slug-hash="GZNoqy" data-default-tab="result" data-user="Leo81202" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/Leo81202/pen/GZNoqy/">Javascript Calculator</a> by Clarence Williamson (<a href="http://codepen.io/Leo81202">@Leo81202</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-                <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-              </div>
-            </div>
-            <div class="card-content">
-              <span class="card-title activator "> Javascript Calculator </span>
-              <p> <strong>Used:</stong> JQuery, Bootstrap, Math.js </p>
-            </div>
-            <div class="card-action">
-              <p> <a target="_blank" href="http://codepen.io/Leo81202/full/GZNoqy/"> Click to open in new window </a> </p>
-            </div>
-          </div>
-          <!-----End of Javacript Calculator----->
-          <!-------Start of Tic-Tac-Toe Card-------->
-          <div class="card large card-size">
-            <div class="card-image">
-              <div class="activator">
-                <p data-height="268" data-theme-id="0" data-slug-hash="MyeMVR" data-default-tab="result" data-user="Leo81202" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/Leo81202/pen/MyeMVR/">Tic-Tac-Toe</a> by Clarence Williamson (<a href="http://codepen.io/Leo81202">@Leo81202</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-                <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-              </div>
-            </div>
-            <div class="card-content">
-              <span class="card-title activator "> Tic-Tac-Toe</span>
-              <p class="title-desc"><strong>Used:</stong> JQuery, Bootstrap </p>
-            </div>
-            <div class="card-action" <p> <a target="_blank" href="http://codepen.io/Leo81202/full/MyeMVR/">Click to open in a new window </a> </p>
-            </div>
-          </div>
-          <!-----End of Tic-Tac-Toe Card------->
-        </div>
-        <div id="page3" class="col s12">
-          <!----Star of Twitch Api---->
-          <div class="card large card-size">
-            <div class="card-image">
-              <div class="activator">
-                <p data-height="268" data-theme-id="0" data-slug-hash="reNwgo" data-default-tab="result" data-user="Leo81202" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/Leo81202/pen/reNwgo/">Twitch Api</a> by Clarence Williamson (<a href="http://codepen.io/Leo81202">@Leo81202</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-                <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-              </div>
-            </div>
-            <div class="card-content">
-              <span class="card-title activator "> Twitch Api </span>
-              <p class="title-desc"><strong>Used:</stong> JQuery,Bootstrap, Twitch Api</p>
-            </div>
-            <div class="card-action">
-              <p> <a target="_blank" href="http://codepen.io/Leo81202/full/reNwgo/"> Click to open in a new window </a> </p>
-            </div>
-          </div>
-          <!----End of Twitch Api Card----->
-          <!--- Start of Wikipedia Api Card ----->
-          <div class="card large card-size">
-            <div class="card-image">
-              <div class="activator">
-                <p data-height="268" data-theme-id="0" data-slug-hash="dMywbP" data-default-tab="result" data-user="Leo81202" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/Leo81202/pen/dMywbP/">Wikipedia Api</a> by Clarence Williamson (<a href="http://codepen.io/Leo81202">@Leo81202</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-                <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-              </div>
-            </div>
-            <div class="card-content">
-              <span class="card-title activator "> Wikipedia Viewer </span>
-              <p><strong>Used:</stong>JQuery, Bootstrap, MediaWiki Api </p>
-            </div>
-            <div class="card-action">
-              <p> <a target="_blank" href="http://codepen.io/Leo81202/full/dMywbP/"> Click to open in new window </a> </p>
-            </div>
-          </div>
-          <!-----End of Wikiepdia Api Card----->
-          <!-------Start of Randmon Quote Machine Card-------->
-          <div class="card large card-size">
-            <div class="card-image">
-              <div class="activator">
-                <p data-height="268" data-theme-id="0" data-slug-hash="vLowrw" data-default-tab="result" data-user="Leo81202" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/Leo81202/pen/vLowrw/">Random Quote Machine.</a> by Clarence Williamson (<a href="http://codepen.io/Leo81202">@Leo81202</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-                <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-              </div>
-            </div>
-            <div class="card-content">
-              <span class="card-title activator "> Random Quote Machine  </span>
-              <p class="title-desc"><strong>Used:</stong>JQuery, Bootstrap</p>
-            </div>
-            <div class="card-action">
-              <p> <a href="http://codepen.io/Leo81202/full/vLowrw/" target="_blank"> Click to open in new window </a> </p>
-            </div>
-          </div>
-          <!-----End of Random Quote Machine Card------->
-        </div>
-        <div id="page4" class="col s12">Page 4</div>
-      </div>
-      <!----End of Tabs---->
-    </div>
-    <!---End of section 2-->
-    <!---Start of section 3-->
-    <div class="divider"></div>
-    <div class="section">
-      <h4 class="section-title" id="Contact"> Contact </h4>
-      <p>
-        <ul class="flow-text">
-         <i class="fa fa-envelope" aria-hidden="true"></i> <a target="_blank" href="mailto:Clarence.Willamsonjr@gmail.com">Clarence.Willamsonjr@gmail.com</a> </li> 
-            <li><i class="fa fa-twitter-square" aria-hidden="true"></i> <a target="_blank" href="https://twitter.com/C_Williamsonjr"> Twitter </a></li>
-         <i class="fa fa-linkedin-square" aria-hidden="true"></i> <a target="_blank" href="https://www.linkedin.com/in/clarence-williamson-133779115">LinkedIn</a> </li>
-          <li><i class="fa fa-users" aria-hidden="true"></i><a href="https://www.freecodecamp.com/leo81202" target="_blank">Free Code Camp</a></li>
-          <li><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/leo81202" target="_blank">Github</a></li>
-      </ul>
-      </p>
-    </div>
-    <!---End of Section 3-->
-    <!--- End of sections -->
-    <!---End of Row class-->
-  </div>
-  <!---End of Container-->
-</div>
+        </footer>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 
-<footer class="page-footer">
-  <div class="footer-copyright">
-    &copy; 2016 Clarence Williamson | All rights reserved.  
-     <span class="created-by" > Page Created by Clarence Williamson </span>
-  </div> 
-</footer>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js'></script>
+        <!-- <script src="js/index.js"></script> -->
 
-        <script src="js/index.js"></script>
 
-    
-    
-    
-  </body>
+
+
+    </body>
+
 </html>

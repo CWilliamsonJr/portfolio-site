@@ -4,10 +4,10 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
 var BUILD_DIR = path.resolve(__dirname, 'public/');
-var APP_DIR = path.resolve(__dirname, 'src/');
+var APP_DIR = path.resolve(__dirname, './');
 
 var config = {
-  entry: APP_DIR + '/scripts/index.jsx',
+  entry: APP_DIR + '/js/index.js',
   output: {
     path: BUILD_DIR,
     filename: 'bundle.js'
@@ -18,14 +18,14 @@ var config = {
       include: APP_DIR,
       loader: 'babel'
     }, {
-      test: /\.scss$/,
-      loaders: ["style", "css", "sass"]
+      test: /\.css$/,
+      loaders: ["style", "css"]
     }]
   },
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
     new HtmlWebpackPlugin({
-      template: './src/index.html'
+      template: './index.html'
     })
   ]
 };

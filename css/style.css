@@ -1,7 +1,7 @@
 .card-size{
   width:320px;
   display: inline-block;
-  margin-right:10px;  
+  margin-right:10px;
 }
 
 .skills-list > li {
@@ -9,28 +9,44 @@
   list-style-type: disc;
   list-style-position: inside;
 }
-.created-by{
-  float:right;  
+.reveal-list{
+  margin: 0;
+  padding: 0;
 }
-footer.page-footer,nav{  
-  background-color:#07070A;  
+.reveal-list {
+  color:#07070A;
+}
+.reveal-list li:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    color: #ffa000; /* or whatever color you prefer */
+    margin-right: 4px;
+    font-size: 20px;
+}
+
+.created-by{
+  float:right;
+}
+footer.page-footer,nav{
+  background-color:#07070A;
 }
 body{
   background-color: #757575;
   color:#07070A;
 }
-.footer-copyright{
-  color:green;
+.card .card-reveal{
+  background-color: #607d8b;
 }
+
 .tabs,.card{
-  background-color:#4C5760;  
+  background-color:#4C5760;
 }
-.card-title,.tabs.tab{
+.card-title, .tabs .tab{
   color:#07070A;
 }
 .card{
   color:#07070A;
-} 
+}
 a,.page-text{
   color:#ffa000  ;
 }
@@ -47,7 +63,7 @@ div >.right > li:hover{
 }
 .inline{
   display:inline;
-  position:absolute:
+  position:absolute;
 }
 .pos-rel{
   position: relative;
