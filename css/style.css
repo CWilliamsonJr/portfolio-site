@@ -30,6 +30,12 @@
 footer.page-footer,nav{
   background-color:#07070A;
 }
+i{
+  color:#07070A;
+}
+a i:after{
+  content: "\00a0";
+}
 body{
   background-color: #757575;
   color:#07070A;
