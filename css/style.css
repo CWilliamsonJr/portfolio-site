@@ -4,7 +4,7 @@
   margin-right:10px;
 }
 
-.skills-list > li {
+.skills-list > li,.work-history > li {
 /*   padding-left:10px; */
   list-style-type: disc;
   list-style-position: inside;
